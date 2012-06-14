@@ -1,0 +1,30 @@
+tr {
+	border-top: 1px solid #aaa;
+}
+
+tr:first-child {
+	border: none;
+}
+
+td {
+	padding: 10px 5px;
+	font-size: 25px;
+	width: 300px;
+}
+
+td:first-child {
+	width: 400px;
+	font-weight: bold;
+}
+
+td.green {
+	background: rgba(0,255,0,0.1)
+}
+
+td.orange {
+	background: rgba(255,100,0,0.3)
+}
+
+td.red {
+	background: rgba(255,0,0,0.2)
+}
